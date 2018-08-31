@@ -79,4 +79,27 @@ body {
   }
 }
 
-/*　コンテンツB ボックス設定 */
+/*　コンテンツB 概要 */
+.conB  h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.conB p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+.conB  a {
+  color: #76EDFF;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.conB  a:hover {
+  text-decoration: underline;
+}
