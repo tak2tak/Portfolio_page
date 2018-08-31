@@ -3,7 +3,7 @@
 /* 基本色 */
 :root {
   --main-color: #76EDFF;
-  --accent-colro: #FF90C5;
+  --accent-color: #FF90C5;
   --dark-color: #219FB2;
   --text-bright-color: #fff;
 }
@@ -46,6 +46,30 @@ body {
   font-size: 18px;
 }
 
+.conA  img{
+  width: 20%;
+}
+
+.conA a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: solid 3px currentColor;
+  border-radius: 6px;
+  background-color: #FF90C5;
+  background-color: var(--accent-color);
+  color: #fff;
+  color: var(--text-bright-color);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.conA a:hover {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+    );
+}
 @media (min-width: 768px) {
   .conA h1 {
     font-size: 115px;
@@ -54,3 +78,5 @@ body {
     font-size: 24px;
   }
 }
+
+/*　コンテンツB ボックス設定 */
