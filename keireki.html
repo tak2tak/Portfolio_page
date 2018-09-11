@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+  <title>My Portfolio</title>
+  <script src="https:code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function(){
+        $(".headB").slideToggle();
+      });
+    });
+  </script>
+</head>
+<body class="nohero">
+    <header>
+      <div class="container">
+        <div class="container-small">
+          <a href="index.html" class="headA">
+            MY PORTFOLIO
+          </a>
+          <button type="button" class="headC">
+            <span class="fa fa-bars" title="MENU">
+            </span>
+          </button>
+        </div>
+        <nav class="headB">
+          <ul>
+            <li><a href="profile.html">プロフィール</a></li>
+            <li><a href="keireki.html">前職での経歴</a></li>
+            <li><a href="it.html">IT業界に入るために努力したこと</a></li>
+            <li><a href="be.html">転職してやりたいこと</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+      <aside class="history">
+        <div class="container">
+          <div class="photo"></div>
+          <div class="text">
+            <h2>前職までの経歴</h2>
+            <table>
+              <tr>
+                <th>2012年3月</th>
+                <td>関西外国語大学卒業</td>
+              </tr>
+              <tr>
+                <th>2012年6月</th>
+                <td>せんば呉服　入社</td>
+              </tr>
+              <tr>
+                <th>2012年12月</th>
+                <td>椎間板ヘルニアのため退社</td>
+              </tr>
+              <tr>
+                <th>2014年12月</th>
+                <td>イケア・ジャパン株式会社　入社</td>
+              </tr>
+              <tr>
+                <th></th>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </aside>
+
+    <article class="post">
+      <div class="container">
+        <h2>イケア・ジャパン株式会社</h2>
+        <h3>2014年12月~現在も就業中</h3>
+        <h4>入社より~2017年3月</h4>
+        <p>カスタマーリレーションズ・チェックアウトサービスに配属。主にお客様対応、レジ接客、データ入力業務を行う。配属から1年後には売上集計、シフト作成、開店業務、閉店締め業務など売上に関する業務に従事。</p>
+        <h4>2017年4月~現在</h4>
+        <p>ホームデリバリー・オンライン販売部門へ移動。オンライン販売業務による受注処理、検品および配送に携わる</p>
+        <p>2018年7月より梱包スペシャリストとして梱包全般の諸管理担当になる。オペレーションクオリティ改善および梱包コストを10%削減した。また全店舗で使用する梱包ガイドライン作成に携わった。</p>
+        <br>
+        <h2>株式会社せんば呉服</h2>
+        <h3>2012年6月～2012年12月</h3>
+        <p>販売スタッフとして勤務。 主に、店頭販売・店頭ディスプレイ作成・顧客管理・DM作りに従事した。 </p>
+        <p>12月に椎間板ヘルニアを発症。大量の荷物の階段での持ち運びや常時立った状態での販売が困難なことから退職。</p>
+        <p>月に平均5人ずつコンスタントに新規顧客を開拓し続けた。また和装店にあまりなかったポップなイメージのDMを作成した。 </p>
+      </div>
+    </article>
+
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>MY PORTFOLIO</h2>
+          <p>石井貴也(Takaya Ishii)</p>
+          <p>携帯電話: 090-6559-1929</p>
+          <p>メール: isiko4@gmail.com</p>
+        </div>
+
+        <div class="footB">
+          <div>
+            <h3>Profile</h3>
+            <ul>
+              <li><a href="profile.html">プロフィール</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>About</h3>
+            <ul>
+              <li><a href="keireki.html">前職での経歴</a></li>
+              <li><a href="it.html">IT業界に入るために努力したこと</a></li>
+              <li><a href="be.html">転職してやりたいこと</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footC">
+          © Takaya Ishii All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
