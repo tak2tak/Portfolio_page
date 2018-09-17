@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+  <title>My Portfolio</title>
+  <script src="https:code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function(){
+        $(".headB").slideToggle();
+      });
+    });
+  </script>
+</head>
+<header>
+  <div class="container">
+    <div class="container-small">
+      <a href="index.html" class="headA">
+        MY PORTFOLIO
+      </a>
+      <button type="button" class="headC">
+        <span class="fa fa-bars" title="MENU">
+        </span>
+      </button>
+    </div>
+    <nav class="headB">
+      <ul>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="keireki.html">前職での経歴</a></li>
+        <li><a href="it.html">IT業界に入るために努力したこと</a></li>
+        <li><a href="be.html">転職してやりたいこと</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <body>
+      <section class="conA compact">
+        <div class="container">
+          <h1>My Portfolio</h1>
+          <p>IT業界未経験ですが転職したい！</p>
+
+        </div>
+      </section>
+
+
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>MY PORTFOLIO</h2>
+          <p>石井貴也(Takaya Ishii)</p>
+          <p>携帯電話: 090-6559-1929</p>
+          <p>メール: isiko4@gmail.com</p>
+        </div>
+
+        <div class="footB">
+          <div>
+            <h3>Profile</h3>
+            <ul>
+              <li><a href="profile.html">プロフィール</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>About</h3>
+            <ul>
+              <li><a href="keireki.html">前職での経歴</a></li>
+              <li><a href="it.html">IT業界に入るために努力したこと</a></li>
+              <li><a href="be.html">転職してやりたいこと</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footC">
+          © Takaya Ishii All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
