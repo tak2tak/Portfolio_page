@@ -8,88 +8,145 @@
   <link rel="stylesheet" href="style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
   <title>My Portfolio</title>
+  <script src="https:code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function(){
+        $(".headB").slideToggle();
+      });
+    });
+  </script>
 </head>
 <header>
-
+  <div class="container">
+    <div class="container-small">
+      <a href="index.html" class="headA">
+        MY PORTFOLIO
+      </a>
+      <button type="button" class="headC">
+        <span class="fa fa-bars" title="MENU">
+        </span>
+      </button>
+    </div>
+    <nav class="headB">
+      <ul>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="keireki.html">前職での経歴</a></li>
+        <li><a href="it.html">IT業界に入るために努力したこと</a></li>
+        <li><a href="be.html">転職してやりたいこと</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
-<body>
-  <section class="conA">
-    <div class="container">
-      <img src="img/wifi-connection-signal-symbol.svg" alt="">
-      <h1>My Portfolio</h1>
-      <p>IT業界未経験ですが転職したい！</p>
-      <a href="#">プロフィールはこちら</a>
-      <a href="#">前職での経歴</a>
-      <a href="#">IT業界に入るため努力したこと</a>
-      <a href="#">転職してやりたいこと</a>
-    </div>
-  </section>
-  <section class="conB">
-    <div class="container">
-      <div class="text">
-        <i class="far fa-smile icon"></i>
-        <h2>プロフィール</h2>
-        <p>好きなものはラーメン巡り・フェス・サイクリング。続けているのはブログと体作りとしてのジムトレーニング。新しいことには全力で取り組みます！</p>
-          <a href="#">MORE...
-          <i class="fas fa-chevron-right"></i>
-          </a>
-      </div>
+    <body>
+      <section class="conA">
+        <div class="container">
+          <img src="img/wifi-connection-signal-symbol.svg" alt="">
+          <h1>My Portfolio</h1>
+          <p>IT業界未経験ですが転職したい！</p>
+          <a href="profile.html">プロフィールはこちら</a>
+          <a href="keireki.html">前職での経歴</a>
+          <a href="it.html">IT業界に入るため努力したこと</a>
+          <a href="be.html">転職してやりたいこと</a>
+        </div>
+      </section>
+      <section class="conB">
+        <div class="container">
+          <div class="text">
+            <i class="far fa-smile icon"></i>
+            <h2>プロフィール</h2>
+            <p>好きなものはラーメン巡り・フェス・サイクリング。続けているのはブログと体作りとしてのジムトレーニング。新しいことには全力で取り組みます！</p>
+              <a href="profile.html">MORE...
+              <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
 
-      <div class="text">
-        <i class="fas fa-briefcase icon"></i>
-        <h2>前職での経歴</h2>
-        <p>2014年にIKEAジャパン株式会社に入社。2017年4月より通販業務に従事。また2018年6月より梱包責任者として全ストアで使用する梱包ガイドライン作成に関わる。</p>
-          <a href="#">MORE...
-          <i class="fas fa-chevron-right"></i>
-          </a>
-      </div>
+          <div class="text">
+            <i class="fas fa-briefcase icon"></i>
+            <h2>前職での経歴</h2>
+            <p>2014年にIKEAジャパン株式会社に入社。2017年4月より通販業務に従事。また2018年6月より梱包責任者として全ストアで使用する梱包ガイドライン作成に関わる。</p>
+              <a href="keireki.html">MORE...
+              <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
 
-      <div class="text">
-        <i class="fas fa-desktop icon"></i>
-        <h2>IT業界に入るために努力したこと</h2>
-        <p>アフィリエイト作成からWordpressによる新規立ち上げ・記事投稿・SEO対策・クリック広告管理・アナリティクス分析を学ぶ。
-        またレンタルサーバーや独自ドメイン、一部VPSサーバーでのTwitterボットを走らせることもしました。
-        別ページに続きます。</p>
-          <a href="#">MORE...
-          <i class="fas fa-chevron-right"></i>
-          </a>
-      </div>
+          <div class="text">
+            <i class="fas fa-desktop icon"></i>
+            <h2>IT業界に入るために努力したこと</h2>
+            <p>アフィリエイト作成からWordpressによる新規立ち上げ・記事投稿・SEO対策・クリック広告管理・アナリティクス分析を学ぶ。
+            またレンタルサーバーや独自ドメイン、一部VPSサーバーでのTwitterボットを走らせることもしました。
+            別ページに続きます。</p>
+              <a href="it.html">MORE...
+              <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
 
-      <div class="text">
-        <i class="fab fa-angellist icon"></i>
-        <h2>転職してやりたいこと</h2>
-        <p>エンジニアとしてプログラムやシステムに対する理解を深める。その後資格習得とともにお客様のビジネスやIT上の課題を理解し分析してハードウェア・ソフトウェアの両面からお客様の戦略実現に向き合うことができるアーキテクトポジションを目指します。</p>
-          <a href="#">MORE...
-          <i class="fas fa-chevron-right"></i>
-          </a>
+          <div class="text">
+            <i class="fab fa-angellist icon"></i>
+            <h2>転職してやりたいこと</h2>
+            <p>エンジニアとしてプログラムやシステムに対する理解を深める。その後資格習得とともにお客様のビジネスやIT上の課題を理解し分析してハードウェア・ソフトウェアの両面からお客様の戦略実現に向き合うことができるアーキテクトポジションを目指します。</p>
+              <a href="be.html">MORE...
+              <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
+        </div>
+      </section>
+      <section class="conC">
+        <div class="container">
+          <div class="photo"></div>
+          <div class="text">
+            <h2>好奇心と向上心だけは負けません</h2>
+            <p>プログラマーに必要な能力の1つに「向上心」が挙げられます。日々新しい技術が生まれる分野において向上心なくして務まることができないと考えています。</p>
+          </div>
+        </div>
+      </section>
+      <section class="conD">
+        <div class="container">
+          <div class="photo"></div>
+          <div class="text">
+            <h2>サービスを提供する側になりたい</h2>
+            <p>これまでは利用する側でしたが、サービスを創る側になり社会の役にたちたいと考えています。IT業界未経験で独学のみですが新しいことは吸収して少しでも早く皆様方に追いつけるように日々努力を重ねます。どうぞよろしくお願いいたします。</p>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+      <div class="container">
+        <div class="footA">
+          <h2>MY PORTFOLIO</h2>
+          <p>石井貴也(Takaya Ishii)</p>
+          <p>携帯電話: 090-6559-1929</p>
+          <p>メール: isiko4@gmail.com</p>
+        </div>
+
+        <div class="footB">
+          <div>
+            <h3>Profile</h3>
+            <ul>
+              <li><a href="profile.html">プロフィール</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>About</h3>
+            <ul>
+              <li><a href="keireki.html">前職での経歴</a></li>
+              <li><a href="it.html">IT業界に入るために努力したこと</a></li>
+              <li><a href="be.html">転職してやりたいこと</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footC">
+          © Takaya Ishii All rights reserved.
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="conC">
-    <div class="container">
-      <div class="photo"></div>
-      <div class="text">
-        <h2>好奇心と向上心だけは負けません</h2>
-        <p>プログラマーに必要な能力の1つに「向上心」が挙げられます。日々新しい技術が生まれる分野において向上心なくして務まることができないと考えています。</p>
-        <a href="#">詳しくはこちら
-          <span class="fa fa-chevron-right"></span>
-        </a>
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="conD">
-    <div class="container">
-      <div class="photo"></div>
-      <div class="text">
-        <h2>サービスを提供する側になりたい</h2>
-        <p>これまでは利用する側でしたが、サービスを創る側になり社会の役にたちたいと考えています。IT業界未経験で独学のみですが新しいことは吸収して少しでも早く皆様方に追いつけるように日々努力を重ねます。どうぞよろしくお願いいたします。</p>
-        <a href="#">詳しくはこちら
-          <span class="fa fa-chevron-right"></span>
-        </a>
-        </p>
-      </div>
-    </div>
-  </section>
-</body>
+    </footer>
+  </body>
 </html>
